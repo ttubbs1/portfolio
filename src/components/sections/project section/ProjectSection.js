@@ -62,6 +62,7 @@ const ProjectSection = () => {
                 <ProjectComponent
                     image={PortfolioImg}
                     title={"Portfolio"}
+                    gitHubLink={"https://github.com/ttubbs1/portfolio"}
                     description={
                         "The project you are looking at right now. Built in React with some scalability and responsiveness in mind; however, not all features (navbar and modals) work great on mobile."
                     }
