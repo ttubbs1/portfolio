@@ -23,7 +23,7 @@ const SpecialButton = ({
             {iconChoice ? (
                 <a
                     className="specialButtonInterior robotoLight"
-                    href="/images/Thomas Tubbs Resume.docx"
+                    href="/images/Thomas Tubbs Resume.pdf"
                     alt="alt text"
                     target="_blank"
                     style={{
