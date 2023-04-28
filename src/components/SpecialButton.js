@@ -24,7 +24,8 @@ const SpecialButton = ({
                 <a
                     className="specialButtonInterior robotoLight"
                     href="/images/Thomas Tubbs Resume.docx"
-                    download
+                    alt="alt text"
+                    target="_blank"
                     style={{
                         padding: padding,
                         color: color,
