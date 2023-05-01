@@ -680,3 +680,6 @@ li {
   fill: #fcfcfc;
   stroke: #fcfcfc;
 }
+
+
+/* on zoom at 125% remove the right: 0 and remove scroll bar */
