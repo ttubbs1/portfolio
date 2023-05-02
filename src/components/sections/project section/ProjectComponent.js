@@ -83,7 +83,7 @@ const ProjectComponent = ({
                     isActive ? "fixedPosition projectInfoResponsive" : "hidden"
                 }
             >
-                <div className="centerContainer">
+                <div className="centerContainer centerContainerResponsive">
                     <div className="outerInfoWrapper">
                         <div className="infoWrapper">
                             <ProjectInfo

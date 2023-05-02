@@ -1,5 +1,5 @@
 import React from "react";
-import BTD6 from "../../../../public/images/btd6.png";
+import BTD6 from "../../../../public/images/btd6.jpg";
 import Company from "../../../../public/images/company_management_app.png";
 import GuessGame from "../../../../public/images/guessing_game.png";
 import PortfolioImg from "../../../../public/images/portfolio.jpg";
