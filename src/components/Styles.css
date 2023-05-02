@@ -436,18 +436,19 @@ li {
 .projectTitleWrapper {
   padding: 0.9rem;
   background-color: #00000080;
-  width: 95%;
-  height: 7%;
+  width: 100%;
   left: 0;
   bottom: 0;
   position: absolute;
   color: rgb(255 255 255 / 1);
   backdrop-filter: blur(12px) brightness(90%);
+  box-sizing: border-box;
 }
 
 .projectTitle {
   font-weight: inherit;
   margin-right: 0.5rem;
+  font-size: 1.4rem;
 }
 
 .projectSidebar:hover > span {
@@ -457,33 +458,20 @@ li {
 .projectSidebar > span {
   transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #00000080;
-  width: 7%;
   height: 100%;
   bottom: 0;
   right: 0;
   position: absolute;
   backdrop-filter: blur(12px) brightness(90%);
   transform: translate(105.5%, 0);
-}
-
-@media (max-width: 820px) {
-  .projectSidebar > span {
-    width: 9%;
-  }
-}
-
-@media (max-width: 500px) {
-  .projectSidebar > span {
-    width: 12%;
-  }
+  padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 .iconWrapper {
   width: 24px;
   height: 24px;
   display: block;
-  margin-left: 19.3%;
-  margin-right: 19.3%;
   margin-top: 25%;
   cursor: pointer;
 }
